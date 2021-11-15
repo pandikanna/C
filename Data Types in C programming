@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int a     =10;
+    char b    ='c';
+    float c   =12.5f;
+    long int d=35689l;
+    float e   =234e-2;
+    double
+    printf("%d \n %d \n %0.2f",a,b,c,d,e);
+    return 0;
+}
