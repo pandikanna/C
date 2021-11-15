@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    int a=1;
+    printf("\nPre increment :%d",++a);
+    printf("\nPost increment :%d",a++);
+    printf("\nA :%d",a);
+    printf("\nPre decrement :%d",--a);
+    printf("\nPost decrement :%d",a--);
+    printf("\nA :%d",a);
+    return 0;
+}
+
+
+output
+
+Pre increment :2
+Post increment :2
+A :3
+Pre decrement :2
+Post decrement :2
+A :1
