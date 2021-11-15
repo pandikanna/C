@@ -8,3 +8,10 @@ int main()
     printf("\nLogical Not :%d",!(a>35));
     return 0;
 }
+
+output:
+
+Logical And :0
+Logical Or :1
+Logical Not :1
+
