@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a=10,b=5;
+    a+=b;
+    printf("\n A :%d", a);
+    a-=b;
+    printf("\n A :%d", a);
+     a*=b;
+    printf("\n A :%d", a);
+     a/=b;
+    printf("\n A :%d", a);
+     a%=b;
+    printf("\n A :%d", a);
+    return 0;
+}
