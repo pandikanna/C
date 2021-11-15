@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+    int a=25, b=45,c;
+    printf("\n Bitwise And :%d",a&b);
+    printf("\n Bitwise Or :%d",a|b);
+    printf("\n Bitwise Xor :%d",a^b);
+    printf("\n Bitwise Xor :%d",~a);
+    a=16;
+    b=a<<2;
+    printf("\n Left Shift :%d",b);
+    c=a>>2;
+    printf("\n Right Shift :%d",c);
+
+  return 0;
+}
+
+
+output
+
+Bitwise And :9
+ Bitwise Or :61
+ Bitwise Xor :52
+ Bitwise Xor :-26
+ Left Shift :64
+ Right Shift :4
+
+
