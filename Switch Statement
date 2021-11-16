@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("\n Enter the value: ");
+    scanf("%d",&a);
+    switch(a)
+    {
+ case 1:
+    printf("\n One");
+    break;
+case 2:
+    printf("\n Two" );
+    break;
+case 3:
+    printf("\n Three");
+    break;
+default:
+    printf("\n Invalid Number");
+    break;
+        }
+    return 0;
+}
+
+
+output
+
+Enter the value: 2
+
+ Two
