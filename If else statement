@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    char name[10];
+    int age;
+    printf("\nEnter your name : ");
+    scanf("%s",name );
+    printf("\nEnter the age : ");
+     scanf("%d",&age );
+    if(age>18)
+    {
+       printf("\n %s age is %d Eligible foe vote", name, age );
+    }
+     else
+    {
+       printf("\n %s age is %d  Not Eligible foe vote", name, age );
+    }
+
+    return 0;
+}
+
+
+output
+
+Enter your name : pandi
+
+Enter the age : 16
+
+pandi age is 16  Not Eligible foe vote
